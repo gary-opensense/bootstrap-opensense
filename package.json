@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-opensense",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "docs": "vite build --base 'bootstrap-opensense' --outDir ./docs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.4",
+    "vite": "^5.2.0"
+  }
+}
